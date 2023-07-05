@@ -4,6 +4,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "format": "prettier --write --ext .vue,.js,.ts --ignore-path .gitignore .",
     "generate": "nuxt generate",
     "lint": "eslint --ext .vue,.js,.ts --fix --ignore-path .gitignore .",
     "preview": "nuxt preview",
@@ -16,7 +17,9 @@
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18",
     "eslint": "^8.44.0",
-    "nuxt": "^3.6.1"
+    "eslint-config-prettier": "^8.8.0",
+    "nuxt": "^3.6.1",
+    "prettier": "^2.8.8"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.14"
