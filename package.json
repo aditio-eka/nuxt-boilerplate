@@ -4,7 +4,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "format": "prettier --write --ext .vue,.js,.ts --ignore-path .gitignore .",
+    "format": "prettier --write --ignore-path .gitignore .",
     "generate": "nuxt generate",
     "lint": "eslint --ext .vue,.js,.ts --fix --ignore-path .gitignore .",
     "preview": "nuxt preview",
