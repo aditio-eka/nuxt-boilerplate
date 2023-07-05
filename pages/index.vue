@@ -66,8 +66,7 @@
   </div>
 </template>
 
-<script setup>
-import { ref } from "vue";
+<script lang="ts" setup>
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/vue";
 
 const categories = ref({
