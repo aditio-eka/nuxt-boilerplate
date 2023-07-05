@@ -7,7 +7,7 @@
     "format": "prettier --write --ignore-path .gitignore .",
     "generate": "nuxt generate",
     "lint": "eslint --ext .vue,.js,.ts --fix --ignore-path .gitignore .",
-    "lint-staged": "lint-staged",
+    "pre-commit": "lint-staged",
     "prepare": "husky install",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
